@@ -1110,7 +1110,7 @@ bool RetroEngine::LoadGameConfig(const char *filePath)
 #endif
 
 #if !RSDK_AUTOBUILD
-        SetGlobalVariableByName("game.hasPlusDLC", 1);
+        SetGlobalVariableByName("game.hasPlusDLC", 0);
 #endif
 	    
 #if !RETRO_USE_ORIGINAL_CODE
