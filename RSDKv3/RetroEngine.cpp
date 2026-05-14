@@ -1107,10 +1107,11 @@ bool RetroEngine::LoadGameConfig(const char *filePath)
         LoadXMLObjects();
         LoadXMLPlayers(NULL);
         LoadXMLStages(NULL, 0);
+		SetGlobalVariableByName("Engine.Standalone", 1);
 #endif
 
 #if !RSDK_AUTOBUILD
-        SetGlobalVariableByName("game.hasPlusDLC", 0);
+        SetGlobalVariableByName("game.hasPlusDLC", !RSDK_AUTOBUILD);
 #endif
 	    
 #if !RETRO_USE_ORIGINAL_CODE
