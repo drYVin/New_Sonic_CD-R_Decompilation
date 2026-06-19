@@ -74,7 +74,7 @@ Install the following dependencies: then follow the [compilation steps below](#c
 - **apt (Debian/Ubuntu):** `sudo apt install build-essential cmake libglew-dev libglfw3-dev libsdl2-dev libogg-dev libtheora-dev libvorbis-dev`
 - **rpm (Fedora):** `sudo dnf install make gcc cmake glew-devel glfw-devel sdl2-devel libogg-devel libtheora-devel libvorbis-devel zlib-devel`
 - **apk (Alpine/PostmarketOS)** `sudo apk add build-base cmake glew-dev glfw-dev sdl2-dev libogg-dev libtheora-dev libvorbis-dev`
-- Your favorite package manager here, [make a pull request](https://github.com/drYVin/New_Sonic_CD-R_Decompilation/fork)
+- Your favorite package manager here, [make a pull request](https://github.com/drYVin/Sonic_CD-R_DX_Decompilation/fork)
 
 ## Android
 > [!WARNING]
@@ -84,9 +84,9 @@ Follow the android build instructions [here.](./dependencies/android/README.md)
 
 ### Compiling
 
-In Command Prompt, use the "cd" command to change your directory like so. Remember to replace "[C:/Users/drYVin/Github/New_Sonic_CD-R_Decompilation]" with the filepath to the source code you downloaded earlier.
+In Command Prompt, use the "cd" command to change your directory like so. Remember to replace "[C:/Users/drYVin/Github/Sonic_CD-R_DX_Decompilation]" with the filepath to the source code you downloaded earlier.
 ```
-cd [C:/Users/drYVin/Github/New_Sonic_CD-R_Decompilation]
+cd [C:/Users/drYVin/Github/Sonic_CD-R_DX_Decompilation]
 ```
 
 
